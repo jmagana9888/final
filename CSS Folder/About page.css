@@ -1,0 +1,55 @@
+body{
+  background-color: whitesmoke;
+  font-size: xx-large; 
+}
+
+*{
+  box-sizing: border-box;
+}
+
+ul{
+  text-align: center;
+  display: flex;
+  list-style-type: none;
+}
+
+li{
+  font-family: Impact;
+  width: 14%;
+  border: 2px solid navy;
+}
+
+nav{
+  background-color: whitesmoke;
+}
+
+a{
+  color:navy;
+  font-size: .6em;
+}
+
+header{
+  color: navy;
+  font-family: Cambria;
+  text-align: center;
+}
+
+p{
+  font-size: 0.9em;
+  color: navy;
+  font-family: Impact;
+}
+
+img{
+  float:right;
+}
+
+@media screen and (min-width: 480px) and (max-width: 750px){
+  ul{
+    flex-direction: column;
+
+  }
+  li{
+    width: 100%;
+  }
+}
